@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Library 3</title>
+</head>
+<body>
+  <h1>Library Project</h1>
+  <div id="addBook">
+    <button id="addBookButton">Add Book</button>
+    <button id="hideBookButton">Hide Form</button>
+  </div>
+
+  <form action="">
+    <div>
+      <label for="title">Title:</label><br>
+      <input type="text" id="title" name="title"><br>
+    </div>
+    <div>
+      <label for="author">Author:</label><br>
+      <input type="text" id="author" name="author" ><br><br>
+    </div>
+   <div>
+      <label for="pages">Pages:</label><br>
+      <input type="text" id="pages" name="pages" ><br><br>
+    </div>
+    <div>
+      <label for="read"> Read:</label><br>
+      <select id="read"><br>
+        <option value="true">Have Read</option>
+        <option value="false">Have Not Read</option><br><br>
+      </div>
+      <div>
+        <input type="submit" id="submit" value="Submit">
+      </div>
+    </form>
+    <div id="library-container"></div>
+  <script src='script.js'></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: arial;
+}
+
+#addBook {
+  display: flex;
+  justify-content: center;
+}
+
+#addBookButton {
+  margin: 20px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+form {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+#hideBookButton {
+  margin: 20px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+form #submit {
+  display: block;
+  margin: 20px;
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+form label {
+  margin-bottom: 8px;
+}
+
+form input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#library-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bookDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  height: 300px;
+  border: 2px solid black;
+}
+
+.titleDiv {
+  font-size: 2 rem;
+  font-weight: bold;
+  color: navy;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.authorDiv {
+  font-size: 1 rem;
+  color: maroon;
+  font-style: italic;
+}
+
+.read {
+  margin: 5px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.notread {
+  margin: 5px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.delete {
+  margin: 5px;
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
